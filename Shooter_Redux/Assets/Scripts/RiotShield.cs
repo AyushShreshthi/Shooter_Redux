@@ -18,7 +18,7 @@ public class RiotShield : MonoBehaviour
         if (states == null)
             states = GetComponentInParent<StateManager>();
 
-        //states.dontRun = true;
+        states.dontRun = true;
     }
     private void OnDisable()
     {

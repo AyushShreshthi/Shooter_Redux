@@ -21,7 +21,7 @@ public class WeaponManager : MonoBehaviour
         handleShooting = GetComponent<HandleShooting>();
         audioManager = GetComponent<CharacterAudioManager>();
 
-        AvailableWeapons.Add(Weapons[0]);
+        AvailableWeapons.Add(Weapons[4]);
         weaponIndex = 0;
 
         CloseAllWeapons();
